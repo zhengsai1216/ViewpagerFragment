@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.veryedu.titles.MainActivity" >
+
+    <RadioGroup 
+        android:id="@+id/main_rg"
+       android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/main_rb0" 
+         android:layout_width="wrap_content"
+      	 android:layout_height="wrap_content"
+      	 android:button="@null"
+         android:text="1"
+           android:gravity="center"
+      	  android:layout_weight="1"
+            />
+        <RadioButton 
+            android:id="@+id/main_rb1" 
+         android:layout_width="wrap_content"
+      	 android:layout_height="wrap_content"
+      	  android:button="@null"
+         android:text="2"
+           android:gravity="center"
+      	  android:layout_weight="1"
+            />
+        <RadioButton 
+            android:id="@+id/main_rb2" 
+         android:layout_width="wrap_content"
+      	 android:layout_height="wrap_content"
+      	  android:button="@null"
+         android:text="3"
+           android:gravity="center"
+      	  android:layout_weight="1"
+            />
+        <RadioButton 
+            android:id="@+id/main_rb3" 
+         android:layout_width="wrap_content"
+      	 android:layout_height="wrap_content"
+      	  android:button="@null"
+      	  android:gravity="center"
+      	  android:layout_weight="1"
+         android:text="4"
+            />        
+    </RadioGroup>
+    
+    <android.support.v4.view.ViewPager
+            android:id="@+id/main_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+   
+
+</LinearLayout>
